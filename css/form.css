@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 25px;
+  width: 1400px;
+  height: 100%;
+  padding: 25px;
+  outline: 1px solid blue;
+}
+
+.form-caption {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.form-label {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+button {
+  display: inline-flex;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #1976d2;
+}
+.form-input:checked + .form-label {
+  color: #2196f3;
+}
