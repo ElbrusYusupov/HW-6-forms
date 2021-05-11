@@ -11,7 +11,33 @@ body {
   outline: 1px solid blue;
 }
 
-.form-caption {
+.form {
+  width: 600px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+}
+.form-field input::placeholder {
+  color: #ccc;
+}
+.form-field label {
+  margin-bottom: 5px;
+}
+/* .form-caption {
   display: block;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -49,4 +75,4 @@ button:focus {
 }
 .form-input:checked + .form-label {
   color: #2196f3;
-}
+} */ ;
